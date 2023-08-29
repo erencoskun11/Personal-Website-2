@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(stockholm-isvec.jpg);
+    background-size: cover;
+}
+.box{
+    width: 300px;
+    height: 620px;
+    background-color: steelblue;
+    padding: 40px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+
+}
+
+.box img{
+    border-radius: 40%;
+    width: 240px;
+    height: 300px;
+    transition: 0.5;
+    cursor: pointer;
+
+}
+.bow img :hover{
+    transform: scale(0.9);
+
+}
+.box h1{
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: burlywood;
+}
+.box h5{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: blanchedalmond;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    margin: 0.5;
+}
+.box li{
+    display: inline-block;
+    margin: 7px;
+    list-style: armenian;
+}
+.box li a{
+    color: #c31f1f;
+    font-size: 40px;
+    transition: all ease-in-out;
+}
+
